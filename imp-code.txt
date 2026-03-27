@@ -1,0 +1,8 @@
+export ADK_DISABLE_AUTH=true
+
+adk web \
+  --session_service_uri=memory:// \
+  --artifact_service_uri=memory:// \
+  --allow_origins="*" \
+  --host=0.0.0.0
+  
